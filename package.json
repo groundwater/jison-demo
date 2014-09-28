@@ -1,0 +1,16 @@
+{
+  "name": "my-first-dsl",
+  "version": "1.0.0",
+  "description": "my first attempt at a dsl",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "jison lang.y && tape test/**/*.js"
+  },
+  "author": "Jacob Groundwater",
+  "dependencies": {
+    "escodegen": "^1.4.1",
+    "esprima": "^1.2.2",
+    "jison": "^0.4.15"
+  }
+}
